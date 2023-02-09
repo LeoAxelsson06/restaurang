@@ -14,7 +14,7 @@ h1 {
 /* styling for all of the boxes on the main page */
 .sc{
     border-color: black;
-    border-width: 3 px;
+    border-width: 3px;
     border-style: solid;
     border-radius: 30px;
     background-size: cover;
@@ -23,19 +23,19 @@ h1 {
 /* Personal styling for each of the boxes */
 
 .sc1{
-    background-image: url(../img/spicyfood1.webp);
+    background-image: url(../img/spicyfood1.0.webp);
     object-fit: fill;
 }
 .sc2{
-    background-image: url(../img/spicyfood2.webp);
+    background-image: url(../img/spicyfood2.0.webp);
     object-fit: fill;
 }
 .sc3{
-    background-image: url(../img/spicyfood3.webp);
+    background-image: url(../img/spicyfood3.0.webp);
     object-fit: fill;
 }
 .sc4{
-    background-image: url(../img/spicyfood4.webp);
+    background-image: url(../img/spicyfood4.0.webp);
     object-fit: fill;
 }
 .sc5{
@@ -84,7 +84,7 @@ footer ul li a:hover{
     color: white;
 }
 footer p{
-    font-size: 14px;
+    font-size: 10px;
     color: rgb(147, 158, 255)
 }
 
