@@ -1,17 +1,17 @@
 *{
     margin:0;
 }
+/* styling and positioning for the header at each page */
 header{
     background-color: violet;
     text-align: center;
-    position: sticky;
     top: 0;
 }
 
 h1 {
     padding: 20px;
 }
-
+/* styling for all of the boxes on the main page */
 .sc{
     border-color: black;
     border-width: 3 px;
@@ -20,34 +20,47 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
 }
+/* Personal styling for each of the boxes */
 
 .sc1{
-    background-image: url(../img/food1.webp);
+    background-image: url(../img/spicyfood1.webp);
     object-fit: fill;
-    
 }
 .sc2{
-    background-color:   green;
+    background-image: url(../img/spicyfood2.webp);
     object-fit: fill;
 }
 .sc3{
-    background-color: blue;
+    background-image: url(../img/spicyfood3.webp);
     object-fit: fill;
 }
 .sc4{
-    background-color: red;
+    background-image: url(../img/spicyfood4.webp);
     object-fit: fill;
 }
 .sc5{
-    background-color: blue ;
+    background-color: blue;
     object-fit: fill;
 }
 .sc6{
-    background-color: blue;
+    background-color: brown;
     object-fit: fill;
 }
 .sc7{
-    background-color: blue;
+    background-color: grey;
+    object-fit: fill;
+}
+
+.sc8 {
+    background-color: burlywood;
+    object-fit: fill;
+}
+.sc9 {
+    background-color: yellowgreen;
+    object-fit: fill;
+}
+.sc10 {
+    background-color: orange;
     object-fit: fill;
 }
 
@@ -57,6 +70,7 @@ footer {
     color: rgb(99, 115, 255); 
     padding: 10px;
 }
+/* links in the footer styling*/
 footer a{
     color: rgb(99, 115, 255);
     text-decoration: 0;
@@ -82,7 +96,7 @@ footer p{
     background-attachment: fixed;
     padding: 30px;
 }
-/* varje individuell section för maträttern*/
+/* varje individuell section for the dishes*/
 .menu section{
     z-index: 3;
     border-style: solid;
@@ -109,7 +123,7 @@ iframe{
     width: 100%;
     height: 200px;
 }
-
+/* Styling for the list of restaurants*/
 .rest div section{
     border-bottom: 1px;
     border-top: 0px;
@@ -170,4 +184,29 @@ iframe{
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
   
+  @media only screen and (min-width: 1020px){/*If the screen gets smaller than the defined width the already stated grid code will be overwritten by the grid cde below the statement. If there is no code to over write the old code, the old code will be active*/
+   
+    .menu{
+        background-image: url(../img/menubackground.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 30px;
+    }
+    
+}
+/* mediaquery for the restaurant page changing the size of the map and text*/
+@media only screen and (min-width: 800px){
+    .rest iframe{
+        margin: 50px;
+        height: 500px;
+    }
+    .rest div{
+        margin: 5%;
+    }
+    .rest div section{
+        font-size: 30px;
+    }
+}
+
 
